@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.p1 {
+    text-align: center;
+}
+
+li {
+    margin: 8px;
+    border-bottom: 3px solid cornflowerblue;
+    width: max-content;
+    transition: 0.5s ease-out 50ms;
+}
+
+li:hover {
+    border-bottom-color: rgb(22, 64, 141);
+    font-size: large;
+}
+
+div {
+    margin: 50px 0 50px 0;
+}
